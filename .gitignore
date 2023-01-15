@@ -1,6 +1,6 @@
 #### - Local customisation:
 # Everything from any ".idea/" directory
-
+.idea/
 
 #### - Created from gitignore.io using: Jupyter Notebooks, JetBrains and macOS
 
