@@ -1,7 +1,7 @@
 def gradient_descent(derivative_function, initial_guess, multiplier=0.02, precision=0.001, maximum_iterations=500):
     new_x = initial_guess
-    x_list = []
-    slope_list = []
+    x_list = [new_x]
+    slope_list = [derivative_function(new_x)]
 
     for n in range(maximum_iterations):
         previous_x = new_x
